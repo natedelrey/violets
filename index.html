@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#171321" />
+  <meta name="description" content="Meet Violets / Nate — Roblox profile, groups, art commissions, and memories." />
+  <title>Violets / Nate — a little corner of the internet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Space+Mono:wght@400;700&family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#171320; --card:#251f30; --card2:#2a2335; --ink:#f5ebf2; --muted:#b7a9be; --line:#53435b; --pink:#e7afc8; --lilac:#c6a6e4; --sage:#a3b8a7; }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:14px;line-height:1.6;min-width:320px}
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 16% 0%,#4c314c66,transparent 34%),radial-gradient(circle at 85% 30%,#45395655,transparent 33%),linear-gradient(120deg,#171320,#211a29 55%,#15121e)}
+    ::selection{background:#bc8ebf;color:#16121c} a{color:inherit;text-decoration:none} button{font:inherit} .page{width:min(890px,calc(100% - 36px));margin:0 auto;padding:42px 0 90px}
+    .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:25px;color:#c5b7cb;gap:12px;font-size:11px;letter-spacing:.17em;text-transform:uppercase}.top .mark{font-family:'Playfair Display',serif;text-transform:none;font-style:italic;letter-spacing:.03em;font-size:24px;color:#e9bfd5}.top-right{display:flex;gap:16px;align-items:center}.tiny-dot{width:6px;height:6px;background:#cda0bf;box-shadow:0 0 12px #e7afc8;border-radius:50%}
+    .shell{border:1px solid #66506a;background:linear-gradient(145deg,#2d2438 0%,#241e30 54%,#211c2a 100%);border-radius:18px;overflow:hidden;box-shadow:0 26px 80px #07040e8a,0 0 0 5px #ffffff05}
+    .hero-art{height:225px;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 18%,#c597b66c,transparent 38%),linear-gradient(160deg,#4f3b58,#342d44 55%,#4d394e)}
+    .hero-art:after{content:'';position:absolute;inset:0;background-image:linear-gradient(90deg,#ffffff08 1px,transparent 1px),linear-gradient(#ffffff08 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,#000,transparent)}
+    .moon{position:absolute;width:150px;height:150px;border-radius:50%;left:50%;top:30px;transform:translateX(-50%);background:linear-gradient(130deg,#f7dce7,#d8b7d5);box-shadow:0 0 85px #f2c6dc88,0 0 130px #e7afc844}
+    .moon:after{content:'';position:absolute;width:145px;height:145px;border-radius:50%;background:#61506b;left:37px;top:-21px}
+    .flower{position:absolute;font-family:Georgia,serif;font-size:135px;line-height:1;color:#241c30;text-shadow:0 0 1px #9c7897;filter:drop-shadow(0 8px 10px #1a1421aa)} .f1{left:10%;bottom:-28px;transform:rotate(-16deg)} .f2{right:10%;bottom:-29px;transform:rotate(18deg)} .f3{left:42%;bottom:-85px;font-size:170px;color:#30253b}
+    .stars{position:absolute;inset:0;z-index:1;color:#efd9e9;font-size:13px;letter-spacing:70px;text-align:center;line-height:55px;opacity:.65;pointer-events:none}.hero-label{position:absolute;left:25px;top:24px;z-index:2;font-size:10px;letter-spacing:.23em;text-transform:uppercase;color:#e8d1e2}.hero-label.right{left:auto;right:25px}
+    .profile{position:relative;padding:0 48px 35px}.avatar{position:absolute;top:-51px;width:100px;height:100px;border-radius:50%;border:5px solid #282131;background:radial-gradient(circle at 25% 20%,#a487ad,#543f61 60%,#2f263d);display:grid;place-items:center;box-shadow:0 8px 25px #08060d88;overflow:hidden}.avatar img{display:block;width:100%;height:100%;object-fit:cover}.avatar span{font-family:'Playfair Display',serif;font-size:58px;font-style:italic;color:#f8dae9;transform:translateY(-3px)}
+    .profile-head{padding-top:66px;display:flex;justify-content:space-between;align-items:start;gap:20px}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.23em;color:var(--pink);font-weight:700}.profile h1{font-family:'Playfair Display',serif;font-size:clamp(37px,6vw,59px);font-weight:500;line-height:1.1;letter-spacing:-.035em;margin:5px 0 9px}.profile h1 em{color:#e5b9d7;font-weight:500}.subtitle{color:#c0b0c7;margin:0;max-width:490px;font-size:13px}.status{border:1px solid #70576e;border-radius:100px;padding:8px 13px;color:#e9d3dd;white-space:nowrap;font-size:11px;background:#ffffff07;margin-top:10px}.status:before{content:'✦';color:#dca8c3;margin-right:7px}
+    .chips{display:flex;flex-wrap:wrap;gap:9px;margin:23px 0 25px}.chip{background:#45374799;border:1px solid #68536b;border-radius:100px;padding:7px 12px;font-size:11px;color:#e0ccd9}.chip strong{color:#f9e8f3;font-weight:600}
+    .actions{display:flex;flex-wrap:wrap;gap:10px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:11px 17px;border:1px solid #765d78;border-radius:7px;font-size:12px;font-weight:700;transition:.2s;cursor:pointer}.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}.primary{background:#e6b6d1;border-color:#e6b6d1;color:#281d2e}.secondary{background:#ffffff06;color:#f1deec}.btn svg{width:15px;height:15px}
+    .content{padding:29px 48px 45px}.divider{height:1px;background:linear-gradient(90deg,transparent,#79607b,transparent);margin:0 0 34px}.section{margin-bottom:39px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:15px}.section h2{font-family:'Playfair Display',serif;font-size:27px;font-weight:500;letter-spacing:-.02em;line-height:1.2;margin:3px 0 0}.section-note{color:#998aa4;font-size:11px;text-align:right}
+    .group{display:flex;align-items:center;gap:20px;border:1px solid #59475e;background:linear-gradient(115deg,#3b3046,#302739);border-radius:10px;padding:20px}.group-icon{width:66px;height:66px;flex:none;border-radius:9px;border:1px solid #7b687a;display:block;object-fit:cover;background:#293b3b}.group h3{font-family:'Playfair Display',serif;font-size:22px;font-weight:500;margin:0 0 2px}.group p{margin:0;color:#c7b7c9;font-size:12px}.role{display:inline-block;color:#c3d6b9;font-size:11px;letter-spacing:.09em;text-transform:uppercase;font-weight:700}.group-link{margin-left:auto;border:1px solid #746179;border-radius:6px;padding:9px 13px;font-size:11px;white-space:nowrap;color:#f4e4f0}.group-link:hover{background:#ffffff12}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.art{border:1px solid #5b4a60;border-radius:9px;overflow:hidden;background:#31283b}.art-visual{height:178px;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#5c4b68,#413650)}.art-visual:before{content:'';position:absolute;width:130px;height:130px;border:1px solid #d3b9cc55;border-radius:50%;box-shadow:0 0 0 22px #d8b1ca0c,0 0 0 45px #d8b1ca0b}.art-visual .symbol{position:relative;font-family:'Playfair Display',serif;font-size:66px;font-style:italic;color:#cfaccb;opacity:.8}.art:nth-child(2) .art-visual{background:linear-gradient(130deg,#45534f,#343a45)}.art:nth-child(3) .art-visual{background:linear-gradient(130deg,#67455d,#453b55)}.art-meta{padding:13px 14px}.art-meta strong{font-size:12px;font-weight:600}.art-meta p{margin:1px 0 0;font-size:10px;color:#a99ab1}.empty-tag{position:absolute;bottom:10px;right:10px;text-transform:uppercase;font-size:9px;letter-spacing:.12em;border:1px solid #ffffff55;border-radius:4px;padding:3px 6px;color:#e8dce8;background:#251c2b77}
+    .memory{display:grid;grid-template-columns:1fr 1fr;gap:13px}.memory-card{border:1px solid #71607a;border-radius:9px;background:#3027399c;padding:20px;display:flex;gap:13px;align-items:start}.memory-icon{font-size:23px;color:#d6accc}.memory strong{font-size:13px;font-weight:600}.memory p{margin:3px 0 0;color:#ad9eb5;font-size:11px;line-height:1.5}.role-list{padding-left:17px;color:#dac9db;font-size:11px;margin:10px 0 0}.role-list li{margin:4px 0}.memory-wide{grid-column:1/-1}.memory-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px}.memory-photo{display:block;border:1px solid #6b576e;background:#201b29;border-radius:9px;overflow:hidden;transition:transform .2s}.memory-photo:hover{transform:translateY(-3px)}.memory-photo img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}.memory-photo span{display:block;padding:8px 12px;font-size:11px;color:#e5d3e1}.art-meta a{color:#e7b6d0;text-decoration:underline;text-underline-offset:2px}.art-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}.art-visual a{position:absolute;inset:0;z-index:2;display:grid;place-items:center;color:#f8e4f0;text-align:center;padding:15px;font-size:11px;background:transparent;transition:background .2s}.art-visual a span{opacity:0;transition:opacity .2s;display:block;border:1px solid #eccee0a8;background:#3e2d47d9;border-radius:5px;padding:8px 12px}.art-visual a:hover,.art-visual a:focus-visible,.art-visual.image-unavailable a{background:#261b3288}.art-visual a:hover span,.art-visual a:focus-visible span,.art-visual.image-unavailable a span{opacity:1}.art-source{display:block;font-size:9px;color:#ad9db4;margin-top:5px}.gallery .art:last-child{display:block}
+    .footer{text-align:center;padding:14px 10px 0;color:#9c8ba5;font-size:10px;letter-spacing:.05em}.footer span{color:#dcafc8}
+    .music{position:fixed;bottom:22px;right:23px;z-index:5;display:flex;align-items:center;gap:11px;background:#33283e;border:1px solid #826a83;border-radius:40px;box-shadow:0 10px 25px #0b0716a8;padding:8px 14px 8px 9px;cursor:pointer;color:#f4e4ef;font-size:11px}.music .disc{height:33px;width:33px;border-radius:50%;display:grid;place-items:center;background:#d7a9c7;color:#2b2235;font-size:17px}.music small{display:block;color:#ad9ab3;font-size:9px}.music-panel{position:fixed;right:23px;bottom:88px;z-index:6;width:min(340px,calc(100vw - 40px));border-radius:12px;background:#30273b;border:1px solid #806782;box-shadow:0 20px 50px #090611b8;padding:16px;display:none}.music-panel.open{display:block}.music-panel .line{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.music-panel strong{font-family:'Playfair Display',serif;font-size:18px;font-weight:500}.music-panel button{background:transparent;border:0;color:#f4dbe9;cursor:pointer;font-size:19px}.music-panel p{color:#bdacc2;font-size:11px;margin:10px 0 0}.music-panel iframe{display:block;border:0;border-radius:8px;width:100%;height:152px}
+    @media(max-width:650px){.page{width:min(100% - 22px,520px);padding-top:23px}.top{padding:0 6px}.top-right span{display:none}.hero-art{height:175px}.moon{width:120px;height:120px;top:28px}.moon:after{width:120px;height:120px;left:31px}.flower{font-size:100px}.f3{font-size:140px}.profile{padding:0 22px 28px}.avatar{width:86px;height:86px;top:-43px}.avatar span{font-size:50px}.profile-head{padding-top:56px;display:block}.profile h1{font-size:42px}.status{display:inline-block;margin-top:18px}.content{padding:23px 22px 32px}.gallery{grid-template-columns:1fr 1fr}.art-visual{height:145px}.group{flex-wrap:wrap;gap:13px;padding:15px}.group-icon{width:51px;height:51px}.group h3{font-size:19px}.group-link{margin-left:0;width:100%;text-align:center}.memory{grid-template-columns:1fr}.section-head{align-items:start}.section-note{max-width:120px}.music{bottom:14px;right:14px}}
+    @media(max-width:390px){.gallery{grid-template-columns:1fr}.art:last-child{display:block}.art-visual{height:160px}.top-right{display:none}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+    /* Storybook garden theme — original hand-drawn illustration */
+    :root{--bg:#211c24;--card:#382d3a;--card2:#463341;--ink:#fff3eb;--muted:#d1bac4;--line:#8c6b7b;--pink:#f0bdc9;--lilac:#d8bfdf;--sage:#b9c7a8}
+    body{background:#221b27;color:var(--ink)}
+    body::before{background:radial-gradient(circle at 10% 8%,#6b455955,transparent 32%),radial-gradient(circle at 90% 48%,#5a4b5655,transparent 42%),repeating-linear-gradient(0deg,#ffffff02 0px,#ffffff02 1px,transparent 1px,transparent 6px),#241d29}
+    .top .mark{color:#ffdae1;text-shadow:0 0 18px #e8abbe77;font-size:28px}
+    .shell{border-color:#ab8091;background:linear-gradient(150deg,#493644,#382a3a 50%,#302635);box-shadow:0 25px 90px #0e0b13ac,0 0 0 5px #e5c2c60a}
+    .hero-art{height:292px;background:#544354 url('assets/secret-garden.webp') center 45% / cover no-repeat}
+    .hero-art::after{background:linear-gradient(to bottom,transparent 64%,#2c2230aa);mask-image:none}
+    .moon,.flower,.stars{display:none}
+    .hero-label{font-family:'Playfair Display',serif;font-size:12px;text-transform:none;letter-spacing:.12em;text-shadow:0 2px 9px #120e17;top:20px}
+    .profile h1{font-size:clamp(39px,6vw,63px)}.profile h1 em{color:#f3c7d5}
+    .avatar{border-color:#f0d2db;box-shadow:0 8px 25px #140d1b99,0 0 0 2px #624759}
+    .subtitle{color:#deccd7}
+    .eyebrow{color:#f2c5d1}
+    .section h2{font-style:italic}
+    .section-head{border-bottom:1px solid #b08d9a55;padding-bottom:14px}
+    .chips .chip{background:#6b4e6066;border-color:#a47b90}
+    .btn{border-radius:100px}
+    .primary{background:#efc2d0;border-color:#efc2d0}
+    .secondary{background:#ffffff0c;border-color:#a58298}
+    .group{background:linear-gradient(125deg,#4d3c4a,#3b303f);border-color:#917484}
+    .group-icon{border:2px solid #b0a08e}
+    .role{color:#d1dabf}
+    .group-link{border-color:#a17b90}
+    .art,.memory-card,.memory-photo{background:#3d3040;border-color:#927589}
+    .art-visual{background:linear-gradient(145deg,#785566,#51405a)}
+    .art:nth-child(2) .art-visual{background:linear-gradient(135deg,#5c6756,#473c4b)}
+    .art:nth-child(3) .art-visual{background:linear-gradient(135deg,#7e596e,#493950)}
+    .music{background:#4b384d;border-color:#c191a7;box-shadow:0 10px 26px #100c1699}
+    .music .disc{background:#f1c3d3;color:#483148}
+    .music-panel{background:#493748;border-color:#c296ac}
+    .music-panel audio{display:block;width:100%;height:44px;accent-color:#e9b5c8}
+    .music-panel .track{display:flex;align-items:center;gap:12px;margin:12px 0 15px}
+    .music-panel .track-image{width:55px;height:55px;border-radius:7px;flex:none;background:url('assets/secret-garden.webp') center / cover;border:1px solid #d7b4c0}
+    .music-panel .track-title{font-weight:700;font-size:12px}
+    .music-panel .track-artist{font-size:10px;color:#d7bfcc}
+    @media(max-width:650px){.hero-art{height:205px}.hero-label.right{display:none}.profile h1{font-size:43px}}
+    /* A handmade internet scrapbook: imperfect, colorful, and intentionally unpolished. */
+    :root{--bg:#cdd2b4;--card:#eee7cf;--card2:#dce0c6;--ink:#17171d;--muted:#5e5962;--line:#242028;--pink:#cf596c;--lilac:#8058a0;--sage:#9cb8a4}
+    body{color:#17171d;background:#c9d1b6;font-size:14px}
+    body::before{background:radial-gradient(circle at 12% 9%,#b8d4ab 0,transparent 36%),radial-gradient(circle at 89% 66%,#e2c79e 0,transparent 37%),repeating-linear-gradient(0deg,#241e2209 0 1px,transparent 1px 5px),#d8d6bb}
+    .page{max-width:920px;padding-top:29px}
+    .top{color:#2f2530;font:700 10px 'Space Mono',monospace;letter-spacing:.07em;text-transform:lowercase;margin-bottom:14px}
+    .top .mark{font-family:'Caveat',cursive;color:#442e50;font-size:36px;font-weight:700;letter-spacing:-.03em;text-shadow:none;transform:rotate(-5deg);display:inline-block}
+    .tiny-dot{background:#de5266;box-shadow:0 0 0 2px #271b23}
+    .shell{background:#e8e2c7;border:3px solid #211d23;border-radius:0;box-shadow:12px 14px 0 #1c2021,17px 19px 0 #dd7f89;overflow:hidden}
+    .hero-art{height:280px;background:#19141b url('assets/ink-cosmos.svg') center 50% / cover no-repeat;border-bottom:3px solid #17141a}
+    .hero-art::after{background:none}
+    .hero-label{top:14px;left:16px;color:#f1dcaf;background:#17151bc9;border:1px solid #e5c78a;padding:4px 9px;font:700 10px 'Space Mono',monospace;letter-spacing:0;text-shadow:none;transform:rotate(-2deg)}
+    .hero-label.right{right:16px;left:auto;transform:rotate(3deg)}
+    .profile{background:#eee8cf;padding:0 43px 32px}
+    .avatar{border:5px solid #1d1921;border-radius:2px;transform:rotate(-6deg);box-shadow:6px 6px 0 #d66479;top:-45px;background:#d4a8aa}
+    .profile-head{padding-top:65px}
+    .eyebrow{color:#9c3655;font:700 10px 'Space Mono',monospace;letter-spacing:.045em;text-transform:lowercase}
+    .profile h1{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(42px,7vw,69px);letter-spacing:-.055em;color:#1f1c22;margin:3px 0 7px}
+    .profile h1 em{color:#b45171}
+    .subtitle{color:#443a45;max-width:510px;font-size:13px}
+    .status{border:2px solid #21202b;background:#d9e5ac;color:#202128;border-radius:0;box-shadow:3px 4px 0 #23202b;transform:rotate(4deg);font:700 10px 'Space Mono',monospace}
+    .status::before{color:#a53c55}
+    .chips{gap:8px;margin:20px 0 24px}
+    .chips .chip{border:1.5px solid #29232b;border-radius:0;background:#e9d49e;color:#24202a;font:700 11px 'Space Mono',monospace;transform:rotate(-2deg)}
+    .chips .chip:nth-child(2){background:#c6d8c0;transform:rotate(2deg)}.chips .chip:nth-child(3){background:#d3c4e4;transform:rotate(-1deg)}
+    .chip strong{color:#24202a}
+    .btn{border:2px solid #241b24;border-radius:0;padding:11px 17px;font:700 11px 'Space Mono',monospace;box-shadow:4px 4px 0 #211c26}
+    .btn:hover{transform:translate(-1px,-2px);box-shadow:5px 6px 0 #211c26}
+    .primary{background:#d9536e;color:#fff7d8;border-color:#281d29}
+    .secondary{background:#d2d9b0;color:#1e2022}
+    .content{background:#eee8cf;padding:25px 43px 40px}
+    .divider{height:2px;background:#2d292c;margin-bottom:28px}
+    .section{margin-bottom:47px}
+    .section-head{border-bottom:0;align-items:center;margin-bottom:17px;padding:0}
+    .section h2{font-family:Georgia,serif;font-style:italic;font-weight:700;font-size:31px;color:#29202a;letter-spacing:-.035em}
+    .section-note{color:#9d4666;font:700 18px 'Caveat',cursive;max-width:150px;transform:rotate(5deg)}
+    .group{background:#afc8ac;border:2px solid #22212a;border-radius:0;box-shadow:6px 6px 0 #21212b;padding:18px}
+    .group-icon{border:2px solid #24212c;border-radius:0;transform:rotate(-3deg)}
+    .group h3{color:#222129;font:700 26px Georgia,serif}
+    .group p{color:#4a3d47}
+    .role{font:700 10px 'Space Mono',monospace;color:#653f61;letter-spacing:0}
+    .group-link{border:2px solid #25212b;background:#eee8cf;color:#201d26;border-radius:0;font:700 10px 'Space Mono',monospace;box-shadow:3px 3px 0 #29222a}
+    .group-link:hover{background:#f1d292}
+    .gallery{gap:16px}
+    .art{background:#f3eedb;border:2px solid #2b2430;border-radius:0;box-shadow:4px 5px 0 #32232d;transform:rotate(-2deg);overflow:visible}
+    .art:nth-child(2){transform:rotate(2deg);margin-top:10px}.art:nth-child(3){transform:rotate(-1deg)}
+    .art::before{content:'';position:absolute;z-index:4;width:60px;height:15px;background:#e5b2a1aa;top:-9px;left:calc(50% - 30px);transform:rotate(-5deg);border:1px solid #efccbd77;pointer-events:none}
+    .art-visual{background:#af9bac;border-bottom:2px solid #211b28;height:194px}
+    .art:nth-child(2) .art-visual{background:#9bbcae}.art:nth-child(3) .art-visual{background:#a59ab9}
+    .art-visual .symbol{color:#2e2232}
+    .art-visual a span{border-radius:0;background:#262029e8}
+    .art-meta{padding:12px 12px 15px;color:#29212c}.art-meta strong{font:700 13px Georgia,serif}
+    .art-meta p{color:#62515e;font:11px 'DM Sans',sans-serif}.art-meta a{color:#9c3d60}
+    .memory-card{background:#e7c893;border:2px solid #28212a;border-radius:0;box-shadow:5px 5px 0 #2a2330;color:#242029}
+    .memory-icon{color:#ad3f5c;font-size:29px}
+    .memory strong{font:700 20px Georgia,serif}.memory p{color:#554757}.role-list{color:#302634;font-family:'Space Mono',monospace;font-size:10px;line-height:1.7}
+    .memory-gallery{gap:19px;padding:8px 5px 0}
+    .memory-photo{background:#f7f0dc;border:7px solid #f8f0df;border-bottom-width:16px;border-radius:0;outline:2px solid #28232b;box-shadow:4px 6px 0 #332531;transform:rotate(-2deg)}
+    .memory-photo:nth-child(even){transform:rotate(2.3deg)}.memory-photo:hover{transform:rotate(0) translateY(-3px)}
+    .memory-photo span{color:#3b2b38;font:700 10px 'Space Mono',monospace;padding:8px 7px 0}
+    .footer{border-top:1px dashed #6d5c69;color:#6b4e62;font:700 10px 'Space Mono',monospace;margin-top:18px}
+    .footer span{color:#b74362}
+    .music{border:2px solid #1d1b24;border-radius:0;background:#22202c;color:#f6dfcb;box-shadow:5px 5px 0 #a73f64}
+    .music .disc{background:#d6de89;color:#22202c;border-radius:0}
+    .music-panel{background:#e9e3ce;border:2px solid #22202c;border-radius:0;box-shadow:7px 7px 0 #ba5c77;color:#2a2029}
+    .music-panel strong{font-family:Georgia,serif}.music-panel .track-title{color:#22202c}.music-panel .track-artist,.music-panel p{color:#5d505d}
+    .music-panel .track-image{background:url('assets/ink-cosmos.svg') center / cover;border:2px solid #27212d;border-radius:0}
+    .music-panel button{color:#29202b}
+    @media(max-width:650px){
+      .page{width:min(calc(100% - 28px),520px);padding-top:14px}
+      .shell{box-shadow:6px 7px 0 #1c2021,9px 10px 0 #dd7f89}
+      .hero-art{height:193px}
+      .profile{padding:0 21px 28px}.profile h1{font-size:43px}.content{padding:22px 21px 29px}
+      .status{transform:rotate(2deg)}
+      .gallery{gap:14px}
+      .art,.art:nth-child(2),.art:nth-child(3){transform:none;margin-top:0}
+      .memory-photo,.memory-photo:nth-child(even){transform:none}
+      .section h2{font-size:26px}
+      .music{bottom:12px;right:11px}
+    }
+    @media(max-width:390px){.gallery{grid-template-columns:1fr}.art-visual{height:190px}.memory-gallery{grid-template-columns:1fr}}
+    /* Darker editorial finish: tarnished colors, quiet texture, less playful framing. */
+    :root{--bg:#15151a;--card:#29252b;--card2:#342c35;--ink:#e9e0d9;--muted:#b6a9ad;--line:#675a62;--pink:#b87a8e;--lilac:#9986a8;--sage:#8b9b87}
+    body{background:#17151a;color:var(--ink)}
+    body::before{background:radial-gradient(circle at 13% 13%,#3b2b3655,transparent 36%),radial-gradient(circle at 90% 55%,#343b3750,transparent 40%),repeating-linear-gradient(0deg,#ffffff03 0 1px,transparent 1px 5px),#18171b}
+    .top{color:#a79aa2}.top .mark{color:#e3c8cb}.tiny-dot{background:#9e6d7d;box-shadow:none}
+    .shell{border:1px solid #75656d;background:#29252b;box-shadow:8px 10px 0 #0c0c0f,0 0 42px #00000055}
+    .hero-art{background:#111016 url('assets/ink-cosmos.svg') center 50% / cover no-repeat;border-bottom:1px solid #6d6067}
+    .hero-art::after{background:linear-gradient(90deg,#14101722,transparent 55%,#14101728)}
+    .hero-label{background:#1c181dbb;border:1px solid #796b71;color:#d6c5bf;transform:none}
+    .hero-label.right{transform:none}
+    .profile,.content{background:#2a252b}
+    .avatar{border:3px solid #9c858b;border-radius:3px;transform:rotate(-2deg);box-shadow:3px 4px 0 #151317}
+    .profile h1{color:#efe6dc}.profile h1 em{color:#b98b9e}
+    .subtitle{color:#beb0b4}.eyebrow{color:#b98c9d}
+    .status{color:#c7cbb8;background:#39413e;border:1px solid #767e71;box-shadow:none;transform:none}
+    .status::before{color:#b4bda0}
+    .chips .chip,.chips .chip:nth-child(2),.chips .chip:nth-child(3){background:#3b3139;color:#d9cbd0;border:1px solid #6e5e6b;transform:none}
+    .chip strong{color:#efe2e5}
+    .btn{border:1px solid #887681;box-shadow:none;font-weight:400}
+    .btn:hover{box-shadow:none;transform:translateY(-2px)}
+    .primary{background:#8b5365;color:#fff2ea;border-color:#8b5365}
+    .secondary{background:#383238;color:#e3d5d9}
+    .divider{background:#665862;height:1px}
+    .section h2{color:#e6dcd7;font-weight:500}
+    .section-note{color:#9b8895}
+    .section-head{border-bottom:1px solid #504651;padding-bottom:12px}
+    .group{background:#303a36;border:1px solid #67746e;box-shadow:none;border-radius:2px}
+    .group-icon{border:1px solid #7a877d;transform:none}
+    .group h3{color:#e5e5d8}.group p{color:#aebbb2}.role{color:#b7bca5}
+    .group-link{color:#e1dad4;background:#393b38;border:1px solid #7a857a;box-shadow:none}
+    .group-link:hover{background:#50554c}
+    .art{background:#383039;border:1px solid #796b76;box-shadow:2px 3px 0 #161317;transform:rotate(-.8deg)}
+    .art:nth-child(2){transform:rotate(.9deg);margin-top:5px}.art:nth-child(3){transform:rotate(-.5deg)}
+    .art::before{height:10px;width:47px;top:-6px;left:calc(50% - 23px);background:#a0918a55;border:0}
+    .art-visual,.art:nth-child(2) .art-visual,.art:nth-child(3) .art-visual{background:#49414c;border-bottom:1px solid #796a76}
+    .art-visual .symbol{color:#8f8190}
+    .art-meta{color:#e2d8dc}.art-meta p{color:#ada0a8}.art-meta a{color:#c2a0ad}
+    .memory-card{background:#373139;border:1px solid #72616d;box-shadow:none;color:#e6d9dc}
+    .memory-icon{color:#ae7d92}.memory strong{color:#e8d9dd}.memory p{color:#b6a6b0}
+    .role-list{color:#c7bac0}
+    .memory-photo{background:#453b42;border:5px solid #51474b;border-bottom-width:13px;outline:1px solid #87767c;box-shadow:2px 3px 0 #151218;transform:rotate(-.6deg)}
+    .memory-photo:nth-child(even){transform:rotate(.7deg)}.memory-photo span{color:#cfc1c5}
+    .footer{color:#95828d;border-top:1px solid #5e525c}.footer span{color:#bb8b9b}
+    .music{background:#29252c;border:1px solid #8c7884;box-shadow:2px 3px 0 #100e13;color:#e3d5d8}
+    .music .disc{background:#8d778b;color:#1d1a20}
+    .music-panel{background:#312a32;border:1px solid #897381;box-shadow:5px 6px 0 #151116;color:#eee0e4}
+    .music-panel strong,.music-panel .track-title{color:#ede0e3}
+    .music-panel .track-artist,.music-panel p{color:#baacb3}
+    @media(max-width:650px){
+      .shell{box-shadow:5px 6px 0 #0d0c10}
+      .art,.art:nth-child(2),.art:nth-child(3),.memory-photo,.memory-photo:nth-child(even){transform:none}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="top"><div class="mark">violets ♡</div><div class="top-right"><span>my little corner of roblox</span><i class="tiny-dot"></i><span>est. 2026</span></div></div>
+    <div class="shell">
+      <div class="hero-art" aria-hidden="true"><div class="moon"></div><div class="stars">✧ ⋆ ✧ ⋆ ✧</div><div class="flower f1">❀</div><div class="flower f2">❀</div><div class="flower f3">✿</div><div class="hero-label">✦ a digital diary</div><div class="hero-label right">01 / ∞</div></div>
+      <header class="profile">
+        <div class="avatar"><img id="robloxAvatar" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-402C3CB0E3DE34608171764E1D02B5EA-Png/420/420/AvatarHeadshot/Png/noFilter" alt="Current Roblox avatar of Violets / Nate" referrerpolicy="no-referrer"></div>
+        <div class="profile-head"><div><div class="eyebrow">welcome to my page</div><h1>Violets <em>/</em> Nate<span style="color:#cda6c2">.</span></h1><p class="subtitle">a small collection of the people, places, and little moments that make my Roblox world feel like home.</p></div><div class="status">around somewhere</div></div>
+        <div class="chips"><span class="chip">✦ <strong>he / him</strong></span><span class="chip">♡ <strong>19 years old</strong></span><span class="chip">❀ <strong>Violets or Nate</strong></span></div>
+        <div class="actions"><a class="btn primary" href="https://www.roblox.com/users/129514820/profile" target="_blank" rel="noopener noreferrer">View my Roblox profile <span aria-hidden="true">↗</span></a><a class="btn secondary" href="#commissions">Explore my gallery <span aria-hidden="true">↓</span></a></div>
+      </header>
+      <div class="content"><div class="divider"></div>
+        <section class="section" id="groups"><div class="section-head"><div><div class="eyebrow">01 — where i belong</div><h2>Current affiliation</h2></div><div class="section-note">my little community</div></div>
+          <div class="group"><img class="group-icon" src="assets/natural-divine-logo.png" alt="Natural Divine group logo"><div><div class="role">💿 Palmshade Emissary</div><h3>Natural Divine</h3><p>Currently a part of this community on Roblox.</p></div><a class="group-link" href="https://www.roblox.com/communities/15972142/Natural-Divine#!/about" target="_blank" rel="noopener noreferrer">View group ↗</a></div>
+        </section>
+        <section class="section" id="commissions"><div class="section-head"><div><div class="eyebrow">02 — pieces of me</div><h2>Art commissions</h2></div><div class="section-note">a future home for avatar art ♡</div></div>
+          <div class="gallery"><div class="art"><div class="art-visual"><span class="symbol">✿</span><img src="https://drive.google.com/thumbnail?id=1VOt2VqDc1nEPnLEnAnrFK6_0N_A4JaxU&amp;sz=w1200" alt="Main Profile Photo art by valenzarri" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('image-unavailable')"><a href="https://drive.google.com/file/d/1VOt2VqDc1nEPnLEnAnrFK6_0N_A4JaxU/view" target="_blank" rel="noopener noreferrer"><span>View artwork ↗</span></a></div><div class="art-meta"><strong>Main Profile Photo</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div></div><div class="art"><div class="art-visual"><span class="symbol">❦</span><img src="https://drive.google.com/thumbnail?id=112GaN5gxmsdIggTxrW-YaJnaVNggzUYm&amp;sz=w1200" alt="Natural Divine profile art by valenzarri" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('image-unavailable')"><a href="https://drive.google.com/file/d/112GaN5gxmsdIggTxrW-YaJnaVNggzUYm/view" target="_blank" rel="noopener noreferrer"><span>View artwork ↗</span></a></div><div class="art-meta"><strong>Natural Divine PFP</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div></div><div class="art"><div class="art-visual"><span class="symbol">✧</span><img src="https://drive.google.com/thumbnail?id=18b27-amkbK2YBoUMO8BNMlZQQYElN4oJ&amp;sz=w1200" alt="Natural Divine alternate profile art by valenzarri" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('image-unavailable')"><a href="https://drive.google.com/file/d/18b27-amkbK2YBoUMO8BNMlZQQYElN4oJ/view" target="_blank" rel="noopener noreferrer"><span>View artwork ↗</span></a></div><div class="art-meta"><strong>Natural Divine Alt. PFP</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div></div></div>
+        </section>
+        <section class="section" id="memories"><div class="section-head"><div><div class="eyebrow">03 — things worth keeping</div><h2>Notable Memories & Past Chapters</h2></div><div class="section-note">every era has its own story</div></div>
+          <div class="memory"><div class="memory-card memory-wide"><div class="memory-icon">✧</div><div><strong><a href="https://www.roblox.com/communities/34221887/SCPF-Secure-Containment-Facilities#!/about" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;text-underline-offset:3px">Inde's SCPF ↗</a></strong><p>Former roles · 2023–2026</p><ul class="role-list"><li>O5 of Medical Department</li><li>O5 of Engineering &amp; Technical Service ×2</li><li>Director of Medical Department ×2</li><li>Director of Scientific Department</li></ul></div></div></div>
+          <div class="memory-gallery"><a class="memory-photo" href="assets/nd-memory-1.png" target="_blank"><img src="assets/nd-memory-1.png" loading="lazy" alt="Natural Divine memory screenshot one"><span>❦ Natural Divine · memory 01</span></a><a class="memory-photo" href="assets/nd-memory-2.png" target="_blank"><img src="assets/nd-memory-2.png" loading="lazy" alt="Natural Divine memory screenshot two"><span>❦ Natural Divine · memory 02</span></a><a class="memory-photo" href="assets/scpf-memory-1.png" target="_blank"><img src="assets/scpf-memory-1.png" loading="lazy" alt="Inde's SCPF memory screenshot one"><span>✧ Inde's SCPF · memory 01</span></a><a class="memory-photo" href="assets/scpf-memory-2.png" target="_blank"><img src="assets/scpf-memory-2.png" loading="lazy" alt="Inde's SCPF memory screenshot two"><span>✧ Inde's SCPF · memory 02</span></a></div>
+        </section>
+        <div class="footer">made with <span>♡</span> · thanks for visiting my corner of the internet</div>
+      </div>
+    </div>
+  </main>
+  <a class="music" href="https://open.spotify.com/track/0sZLzafgqCzvnzhh8B97r2" target="_blank" rel="noopener noreferrer" aria-label="Listen to Weirdo by Suki Waterhouse on Spotify"><span class="disc">♫</span><span>my soundtrack<small>listen on Spotify ↗</small></span></a>
+  <script>
+    // GitHub Actions refreshes this file; keep the current Roblox CDN picture as fallback.
+    const avatar = new Image();
+    avatar.onload = () => { document.getElementById('robloxAvatar').src = avatar.src; };
+    avatar.src = 'assets/roblox-avatar.png?v=' + Math.floor(Date.now() / 21600000);
+  </script>
+</body>
+</html>
