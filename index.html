@@ -205,6 +205,16 @@
       .shell{box-shadow:5px 6px 0 #0d0c10}
       .art,.art:nth-child(2),.art:nth-child(3),.memory-photo,.memory-photo:nth-child(even){transform:none}
     }
+    .art-visual .empty-tag{display:none}
+    .art-visual.image-unavailable img,.art-visual.image-unavailable a{display:none}
+    .art-visual.image-unavailable .empty-tag{display:block}
+    .art-visual a{cursor:zoom-in}
+    .art-visual a:focus-visible{outline:2px solid #f8e4f0;outline-offset:-3px}
+    .art-preview{max-width:calc(100% - 24px);max-height:calc(100% - 24px);padding:12px;border:1px solid #897381;border-radius:9px;background:#312a32;color:#eee0e4}
+    .art-preview::backdrop{background:#151116dd}
+    .art-preview header{display:flex;justify-content:flex-end;margin-bottom:8px}
+    .art-preview button{cursor:pointer;font:inherit;color:inherit;background:#453b42;border:1px solid #897381;border-radius:4px;padding:5px 12px}
+    .art-preview img{display:block;max-width:100%;max-height:calc(100dvh - 100px);object-fit:contain;margin:auto}
   </style>
 </head>
 <body>
@@ -223,7 +233,44 @@
           <div class="group"><img class="group-icon" src="assets/natural-divine-logo.png" alt="Natural Divine group logo"><div><div class="role">💿 Palmshade Emissary</div><h3>Natural Divine</h3><p>Currently a part of this community on Roblox.</p></div><a class="group-link" href="https://www.roblox.com/communities/15972142/Natural-Divine#!/about" target="_blank" rel="noopener noreferrer">View group ↗</a></div>
         </section>
         <section class="section" id="commissions"><div class="section-head"><div><div class="eyebrow">02 — pieces of me</div><h2>Art commissions</h2></div><div class="section-note">a future home for avatar art ♡</div></div>
-          <div class="gallery"><div class="art"><div class="art-visual"><span class="symbol">✿</span><img src="assets/pfp.png" alt="Main Profile Photo art by valenzarri" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('image-unavailable');this.parentElement.querySelector('a').hidden=true"><a href="assets/pfp.png" target="_blank" rel="noopener noreferrer"><span>View artwork ↗</span></a></div><div class="art-meta"><strong>Main Profile Photo</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div></div><div class="art"><div class="art-visual"><span class="symbol">❦</span><img src="assets/NDPFP.png" alt="Natural Divine profile art by valenzarri" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('image-unavailable');this.parentElement.querySelector('a').hidden=true"><a href="assets/NDPFP.png" target="_blank" rel="noopener noreferrer"><span>View artwork ↗</span></a></div><div class="art-meta"><strong>Natural Divine PFP</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div></div><div class="art"><div class="art-visual"><span class="symbol">✧</span><img src="assets/OldNDPFP.png" alt="Natural Divine alternate profile art by valenzarri" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('image-unavailable');this.parentElement.querySelector('a').hidden=true"><a href="assets/OldNDPFP.png" target="_blank" rel="noopener noreferrer"><span>View artwork ↗</span></a></div><div class="art-meta"><strong>Natural Divine Alt. PFP</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div></div></div>
+          <div class="gallery">
+            <div class="art">
+              <div class="art-visual">
+                <span class="symbol" aria-hidden="true">✿</span>
+                <img src="assets/pfp.png" alt="Main profile photo art by valenzarri" loading="lazy" onerror="this.parentElement.classList.add('image-unavailable')">
+                <a href="assets/pfp.png" aria-haspopup="dialog" aria-label="Enlarge Main Profile Photo"><span>Enlarge artwork</span></a>
+                <span class="empty-tag">Image unavailable</span>
+              </div>
+              <div class="art-meta"><strong>Main Profile Photo</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div>
+            </div>
+            <div class="art">
+              <div class="art-visual">
+                <span class="symbol" aria-hidden="true">❦</span>
+                <img src="assets/NDPFP.png" alt="Natural Divine profile art by valenzarri" loading="lazy" onerror="this.parentElement.classList.add('image-unavailable')">
+                <a href="assets/NDPFP.png" aria-haspopup="dialog" aria-label="Enlarge Natural Divine PFP"><span>Enlarge artwork</span></a>
+                <span class="empty-tag">Image unavailable</span>
+              </div>
+              <div class="art-meta"><strong>Natural Divine PFP</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div>
+            </div>
+            <div class="art">
+              <div class="art-visual">
+                <span class="symbol" aria-hidden="true">✧</span>
+                <img src="assets/OldNDPFP.png" alt="Natural Divine alternate profile art by valenzarri" loading="lazy" onerror="this.parentElement.classList.add('image-unavailable')">
+                <a href="assets/OldNDPFP.png" aria-haspopup="dialog" aria-label="Enlarge Natural Divine Alt. PFP"><span>Enlarge artwork</span></a>
+                <span class="empty-tag">Image unavailable</span>
+              </div>
+              <div class="art-meta"><strong>Natural Divine Alt. PFP</strong><p>Artwork by <a href="https://discord.com/users/919047727508254740" target="_blank" rel="noopener noreferrer">valenzarri ↗</a></p></div>
+            </div>
+            <div class="art">
+              <div class="art-visual">
+                <span class="symbol" aria-hidden="true">✦</span>
+                <img src="assets/DUBHEPFP.png" alt="Profile art by Dubhe" loading="lazy" onerror="this.parentElement.classList.add('image-unavailable')">
+                <a href="assets/DUBHEPFP.png" aria-haspopup="dialog" aria-label="Enlarge Dubhe PFP"><span>Enlarge artwork</span></a>
+                <span class="empty-tag">Image unavailable</span>
+              </div>
+              <div class="art-meta"><strong>Dubhe PFP</strong><p>Artwork by <a href="https://discord.com/users/1018265756728819754" target="_blank" rel="noopener noreferrer">Dubhe ↗</a></p></div>
+            </div>
+          </div>
         </section>
         <section class="section" id="memories"><div class="section-head"><div><div class="eyebrow">03 — things worth keeping</div><h2>Notable Memories & Past Chapters</h2></div><div class="section-note">every era has its own story</div></div>
           <div class="memory"><div class="memory-card memory-wide"><div class="memory-icon">✧</div><div><strong><a href="https://www.roblox.com/communities/34221887/SCPF-Secure-Containment-Facilities#!/about" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;text-underline-offset:3px">Inde's SCPF ↗</a></strong><p>Former roles · 2023–2026</p><ul class="role-list"><li>O5 of Medical Department</li><li>O5 of Engineering &amp; Technical Service ×2</li><li>Director of Medical Department ×2</li><li>Director of Scientific Department</li></ul></div></div></div>
@@ -233,6 +280,10 @@
       </div>
     </div>
   </main>
+  <dialog class="art-preview" id="artPreview" aria-label="Enlarged artwork">
+    <header><form method="dialog"><button autofocus>Close</button></form></header>
+    <img id="artPreviewImage" alt="">
+  </dialog>
   <button class="music" type="button" id="musicToggle" aria-expanded="false" aria-controls="musicPanel"><span class="disc">♫</span><span>my soundtrack<small>open player ♡</small></span></button>
   <section class="music-panel" id="musicPanel" aria-label="Soundtrack player">
     <div class="line"><strong>my soundtrack</strong><button type="button" id="musicClose" aria-label="Close soundtrack player">×</button></div>
@@ -241,6 +292,20 @@
     <p id="musicStatus" role="status" hidden>The soundtrack is unavailable right now.</p>
   </section>
   <script>
+    const artPreview = document.getElementById('artPreview');
+    const artPreviewImage = document.getElementById('artPreviewImage');
+    document.querySelectorAll('.art-visual a').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        artPreviewImage.alt = link.parentElement.querySelector('img').alt;
+        artPreviewImage.src = link.href;
+        artPreview.showModal();
+      });
+    });
+    artPreview.addEventListener('click', event => {
+      if (event.target === artPreview) artPreview.close();
+    });
+
     const musicToggle = document.getElementById('musicToggle');
     const musicPanel = document.getElementById('musicPanel');
     function setMusicOpen(open) {
@@ -253,7 +318,7 @@
       musicToggle.focus();
     });
     document.addEventListener('keydown', event => {
-      if (event.key === 'Escape' && musicPanel.classList.contains('open')) {
+      if (event.key === 'Escape' && !artPreview.open && musicPanel.classList.contains('open')) {
         setMusicOpen(false);
         musicToggle.focus();
       }
