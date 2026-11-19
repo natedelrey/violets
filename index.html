@@ -308,11 +308,23 @@
 
     const musicToggle = document.getElementById('musicToggle');
     const musicPanel = document.getElementById('musicPanel');
+    const soundtrack = document.getElementById('soundtrack');
+    let autoplayBlocked = false;
+    soundtrack.play().catch(error => {
+      autoplayBlocked = error.name === 'NotAllowedError';
+    });
     function setMusicOpen(open) {
       musicPanel.classList.toggle('open', open);
       musicToggle.setAttribute('aria-expanded', String(open));
     }
-    musicToggle.addEventListener('click', () => setMusicOpen(!musicPanel.classList.contains('open')));
+    musicToggle.addEventListener('click', () => {
+      const open = !musicPanel.classList.contains('open');
+      setMusicOpen(open);
+      if (open && autoplayBlocked) {
+        autoplayBlocked = false;
+        soundtrack.play().catch(() => {});
+      }
+    });
     document.getElementById('musicClose').addEventListener('click', () => {
       setMusicOpen(false);
       musicToggle.focus();
@@ -323,7 +335,7 @@
         musicToggle.focus();
       }
     });
-    document.getElementById('soundtrack').addEventListener('error', () => {
+    soundtrack.addEventListener('error', () => {
       document.getElementById('musicStatus').hidden = false;
     });
     // GitHub Actions refreshes this file; keep the current Roblox CDN picture as fallback.
